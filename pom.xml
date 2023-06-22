@@ -9,7 +9,8 @@
 	<url>http://maven.apache.org</url>
 	
 	<properties>
-	
+		<maven.compiler.source>16</maven.compiler.source>
+		<maven.compiler.target>16</maven.compiler.target>
 		<sonar.host.url>http://18.181.164.81:9000/</sonar.host.url>
 
 	</properties>
