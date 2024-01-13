@@ -1,6 +1,6 @@
 # Configure the AWS Provider
 provider "aws" {
-  region = var.region
+  region  = var.region
   profile = var.profile
 }
 resource "aws_instance" "web7" {
